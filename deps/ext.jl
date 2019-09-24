@@ -1,5 +1,5 @@
 # for gtk2, set this var to 2 and edit deps/build.jl as described therein
-const gtk_version = 3
+const gtk_version = 2
 
 const _depspath = joinpath(dirname(@__FILE__), "deps.jl")
 
